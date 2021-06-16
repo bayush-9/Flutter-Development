@@ -8,7 +8,7 @@ class Result extends StatelessWidget {
   String get resultPhrase {
     var resultText = 'WOW! you did it';
     if (resultScore <= 5) {
-      resultText = 'You are awsome and innocent!!';
+      resultText = 'You are awsome!!';
     }
     //more conditions to be put up
     return resultText;
@@ -18,6 +18,7 @@ class Result extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
             resultPhrase,

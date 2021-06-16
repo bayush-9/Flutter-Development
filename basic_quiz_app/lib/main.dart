@@ -37,10 +37,10 @@ class MyAppState extends State<MyApp> {
     {
       'questionText': 'What is your favourite food?',
       'answers': [
-        {'text': 'manchu', 'score': 1},
-        {'text': 'pani puri', 'score': 2},
-        {'text': 'chane', 'score': 3},
-        {'text': 'phutane', 'score': 4}
+        {'text': 'Noodles', 'score': 1},
+        {'text': 'Bread', 'score': 2},
+        {'text': 'Milk', 'score': 3},
+        {'text': 'Eggs', 'score': 4}
       ],
     },
   ];
